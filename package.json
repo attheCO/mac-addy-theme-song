@@ -1,0 +1,22 @@
+{
+  "name": "mac-addy-theme-song",
+  "version": "1.0.0",
+  "description": "[ ] fetch MAC addresses on network [ ] store all new MACs [ ] record firstSeenToday && lastSeen timestamps [ ] play song, if first time seen today [ ] assign specific song to specific MAC address [ ] add //play song// action to queue, if multiple devices enter network at the same time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attheCO/mac-addy-theme-song.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attheCO/mac-addy-theme-song/issues"
+  },
+  "homepage": "https://github.com/attheCO/mac-addy-theme-song#readme",
+  "devDependencies": {
+    "libnmap": "^0.2.33"
+  }
+}
