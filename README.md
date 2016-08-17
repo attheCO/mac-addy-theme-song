@@ -18,5 +18,5 @@
 
 ##Depedencies:
 
-- https://github.com/jas-/node-libnmap `sudo nmap -sP -oX outputMacAddytheCO.xml 10.10.1.0/24`, but can use JSON for output
+- https://github.com/jas-/node-libnmap `sudo nmap -sP -oX outputMacAddytheCO.xml 10.10.1.0/24`, but can use JSON for output. [see libnmap in action](https://gist.github.com/jas-/eae6b0c6e82a4e072b97)
 - 
