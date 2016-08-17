@@ -1,5 +1,7 @@
 #Play a theme song when a MAC address hits the network
 
+##todos:
+
 [ ] fetch MAC addresses on network
 [ ] store all new MACs
 [ ] record firstSeenToday && lastSeen timestamps
@@ -7,6 +9,14 @@
 [ ] assign specific song to specific MAC address
 [ ] add //play song// action to queue, if multiple devices enter network at the same time
 
-Depedencies:
+##setup
+
+- `npm install`
+- `node main.js` to see libnmap output
+- ...
+
+
+##Depedencies:
+
 - https://github.com/jas-/node-libnmap `sudo nmap -sP -oX outputMacAddytheCO.xml 10.10.1.0/24`, but can use JSON for output
 - 
